@@ -1,0 +1,15 @@
+@media screen and (max-width:600px ) {
+    .r{
+        font-size: 15px;
+        width: 200px;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        right: 300px;
+    }
+
+    .r iframe{
+        width: 230px;
+        height: 190px;
+    }
+}

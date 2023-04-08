@@ -1,0 +1,117 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #212529;
+    overflow-x: hidden;
+}
+body header {
+    width: 100%;
+    height: 100%;
+}
+.red {
+    color: red;
+}
+.white {
+    color: red;
+}
+h1{
+    color: white;
+}
+#Btn{
+    color: white;
+}
+body header .left {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    
+}
+body header .left a {
+    color: white;
+}
+body header .left a :hover {
+    color: #212529;
+}
+body header .right {
+    width: 85%;
+    display: flex !important;
+    justify-content: flex-end !important;
+}
+body header .right a {
+    color: white;
+}
+body header .right a :hover {
+    color: #212529;
+}
+main {
+    width: 100%;
+    height: 100%;
+}
+main section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+main .bottom {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+main .bottom div {
+    width: 100%;
+    height: 490px;
+    background-image: url("./photo_2022-08-13_23-49-56.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+main div {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+main div h3 {
+    font-size: 20px;
+    color: white;
+}
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #D62929;
+}
+
+.title{
+    position: absolute;
+    text-align: center;
+}
+
+.title h3{
+    font-size: 20px;
+    color: white;
+}
+
+.title p{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
